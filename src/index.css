@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-1 {
+  @apply text-[32px] leading-[120%] font-bold;
+}
+
+.text-2 {
+  @apply text-xl leading-[150%] font-bold;
+}
+
+.text-3 {
+  @apply font-bold leading-[150%];
+}
+
+.text-4 {
+  @apply text-sm leading-[150%];
+}
+
+.text-4-bold {
+  @apply font-bold text-sm leading-[150%];
+}
+
+.text-5 {
+  @apply text-xs leading-[150%];
+}
+
+.text-5-bold {
+  @apply font-bold text-sm leading-[150%];
+}
